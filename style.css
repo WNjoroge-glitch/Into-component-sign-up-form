@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background-image:url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%) ;
+    
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    }
+
+#main-article {
+    color:white;
+    width:400px;
+    margin:auto;
+    
+}
+#main-article h1{
+    font-size:50px;
+}
+
+
+
+
+
+
+#main-container {
+    display:flex;
+    
+    
+}
+
+
+
+form {
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    height:400px;
+    width:400px;
+    
+    
+    
+    
+    
+}
+
+#form-heading {
+    font-size: 20px;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+    background-color:hsl(248, 32%, 49%);
+    border-radius:5px; 
+}
+
+input {
+    padding:5px;
+    width:inherit;
+    height:40px;
+    border-radius:5px;
+    
+}
+
+label {
+    margin:auto;
+    width:80%;
+    
+    
+}
+
+button{
+    height:30px;
+    width:80%;
+    margin:auto;
+    background-color:hsl(154, 59%, 51%);
+    color:white;
+    outline:none;
+    border-color:hsl(154, 59%, 51%);
+    border-radius:5px;
+    
+}
+
+small {
+    margin:10px;
+}
+span {
+    color:hsl(0, 100%, 74%);
+    
+}
